@@ -1,20 +1,20 @@
 <properties 
-	pageTitle="Azure Multi-Factor Authentication-Berichte" 
-	description="Hier wird das Ändern von Benutzereinstellungen beschrieben, z. B. wie Benutzer dazu gebracht werden, den Nachweis-Prozess noch einmal durchzuführen." 
-	documentationCenter="" 
-	services="multi-factor-authentication" 
-	authors="billmath" 
-	manager="stevenpo" 
+	pageTitle="Azure Multi-Factor Authentication-Berichte"
+	description="Hier wird das Ändern von Benutzereinstellungen beschrieben, z. B. wie Benutzer dazu gebracht werden, den Nachweis-Prozess noch einmal durchzuführen."
+	documentationCenter=""
+	services="multi-factor-authentication"
+	authors="kgremban"
+	manager="femila"
 	editor="curtand"/>
 
-<tags 
-	ms.service="multi-factor-authentication" 
-	ms.workload="identity" 
-	ms.tgt_pltfrm="na" 
-	ms.devlang="na" 
-	ms.topic="article" 
-	ms.date="08/04/2016" 
-	ms.author="billmath"/>
+<tags
+	ms.service="multi-factor-authentication"
+	ms.workload="identity"
+	ms.tgt_pltfrm="na"
+	ms.devlang="na"
+	ms.topic="article"
+	ms.date="08/04/2016"
+	ms.author="kgremban"/>
 
 # Verwalten von Benutzereinstellungen mit Azure Multi-Factor Authentication (MFA) in der Cloud
 
@@ -48,7 +48,10 @@ Durch diese Einstellung wird der Benutzer gezwungen, die Registrierung bei der A
 5. Klicken Sie unten auf der Seite auf "Verwalten der Multi-Factor Authentication". Die Seite für die mehrstufige Authentifizierung wird geöffnet.
 6. Suchen Sie den Benutzer, den Sie verwalten möchten, und aktivieren Sie das Kontrollkästchen neben seinem Namen. Sie müssen möglicherweise oben die Ansicht ändern.
 7. Hierdurch wird rechts der Link **Benutzereinstellungen verwalten** angezeigt. Klicken Sie auf diese Schaltfläche.
-8. Aktivieren Sie das Kontrollkästchen ** Bereitstellen der Kontaktmethoden bei ausgewählten Benutzern erneut anfordern**. ![Kontaktmethoden bereitstellen](./media/multi-factor-authentication-manage-users-and-devices/reproofup.png)
+8. Aktivieren Sie das Kontrollkästchen **Bereitstellen der Kontaktmethoden bei ausgewählten Benutzern erneut anfordern**.
+
+![Kontaktmethoden bereitstellen](./media/multi-factor-authentication-manage-users-and-devices/reproofup.png)
+
 10. Klicken Sie auf "Speichern".
 11. Klicken Sie auf "Schließen".
 
@@ -86,4 +89,4 @@ Administratoren haben die Möglichkeit, die Multi-Factor Authentication auf Ger�
 9. Klicken Sie auf "Speichern".
 10. Klicken Sie auf "Schließen".
 
-<!---HONumber=AcomDC_0810_2016-->
+<!---HONumber=AcomDC_0921_2016-->

@@ -29,7 +29,7 @@ Die vollständige Vorlage finden Sie unter [Event Hub and enable Archive templat
 >[AZURE.NOTE]
 Um die neuesten Vorlagen zu finden, rufen Sie den Katalog [Azure-Schnellstartvorlagen][] auf, und suchen Sie nach „Event Hubs“.
 
-## Was möchten Sie bereitstellen?
+## Was wird bereitgestellt?
 
 Mit dieser Vorlage können Sie einen Event Hubs-Namespace mit einem Event Hub bereitstellen und Archive aktivieren.
 
@@ -169,7 +169,7 @@ Das Größenintervall, in dem das Archiv beginnt, die Daten im Azure-Blobspeiche
 
 ### destinationStorageAccountResourceId
 
-Das Archiv benötigt eine Speicherkonto-Ressourcen-ID, um das Archiv in Ihrem gewünschten Azure-Speicher zu aktivieren.
+Das Archiv benötigt eine Speicherkontoressourcen-ID, um das Archiv in Ihrem gewünschten Azure-Speicher zu aktivieren.
 
 ```
  "destinationStorageAccountResourceId":{
@@ -182,7 +182,7 @@ Das Archiv benötigt eine Speicherkonto-Ressourcen-ID, um das Archiv in Ihrem ge
 
 ### blobContainerName
 
-Der Blobcotainer, in dem Sie die Ereignisdaten archivieren möchten.
+Der Blobcontainer, in dem Sie die Ereignisdaten archivieren möchten.
 
 ```
  "blobContainerName":{
@@ -287,6 +287,6 @@ Da Sie nun Ressourcen mit Azure Resource Manager erstellt und bereitgestellt hab
   [Using the Azure CLI for Mac, Linux, and Windows with Azure Resource Management]: ../xplat-cli-azure-resource-manager.md
   [Event Hub and consumer group template]: https://github.com/Azure/azure-quickstart-templates/blob/master/201-eventhubs-create-namespace-and-enable-archive/
   [Recommended naming conventions for Azure resources]: https://azure.microsoft.com/documentation/articles/guidance-naming-conventions/
-  [Event Hub and enable Archive template]: [https://github.com/Azure/azure-quickstart-templates/tree/master/201-eventhubs-create-namespace-and-enable-archive]
+  [Event Hub and enable Archive template]: https://github.com/Azure/azure-quickstart-templates/tree/master/201-eventhubs-create-namespace-and-enable-archive
 
-<!---HONumber=AcomDC_0914_2016-->
+<!---HONumber=AcomDC_0921_2016-->

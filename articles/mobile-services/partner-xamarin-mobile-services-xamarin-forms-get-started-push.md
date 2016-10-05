@@ -252,7 +252,7 @@ Ihr mobiler Dienst ist nun für APNS konfiguriert.
 
     ![][120]
 
-    Dadurch wird sichergestellt, dass das Xamarin-Projekt das neue Profil für die Codesignierung verwendet. Die offizielle Dokumentation zur Xamarin-Gerätebereitstellung finden Sie unter [Xamarin Device Provisioning] (Xamarin – Gerätebereitstellung, in englischer Sprache).
+    Dadurch wird sichergestellt, dass das Xamarin-Projekt das neue Profil für die Codesignierung verwendet. Die offizielle Dokumentation zur Xamarin-Gerätebereitstellung finden Sie unter [Xamarin Device Provisioning] \(Xamarin – Gerätebereitstellung, in englischer Sprache).
 
 ### <a name="add-push"></a>Hinzufügen von Pushbenachrichtigungen zur App
 
@@ -777,7 +777,7 @@ Schließlich müssen Sie das Skript, das für den Einfügevorgang in der Tabelle
 
 	![Empfangene Toast-Benachrichtigung](./media/partner-xamarin-mobile-services-xamarin-forms-get-started-push/mobile-quickstart-push5-wp8.png)
 
-	>[AZURE.NOTE]Wenn Sie sich noch in der App befinden, erhalten Sie die Benachrichtigung nicht. Um eine Toast-Benachrichtigung zu empfangen, während die App aktiv ist, müssen Sie das [ShellToastNotificationReceived] (http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.notification.httpnotificationchannel.shelltoastnotificationreceived(v=vs.105).aspx)-Ereignis behandeln.
+	>[AZURE.NOTE]Wenn Sie sich noch in der App befinden, erhalten Sie die Benachrichtigung nicht. Um eine Toast-Benachrichtigung zu empfangen, während die App aktiv ist, müssen Sie das [ShellToastNotificationReceived] \(http://msdn.microsoft.com/library/windowsphone/develop/microsoft.phone.notification.httpnotificationchannel.shelltoastnotificationreceived(v=vs.105).aspx)-Ereignis behandeln.
 
 <!-- Anchors. -->
 [Generate the certificate signing request]: #certificates

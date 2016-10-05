@@ -13,7 +13,7 @@
 	ms.tgt_pltfrm="na"
 	ms.devlang="na"
 	ms.topic="article"
-	ms.date="07/06/2016"
+	ms.date="09/16/2016"
 	ms.author="garye"/>
 
 
@@ -39,7 +39,8 @@ Es stehen mehrere Modelle zur Auswahl. Um die verfügbaren Modelle anzuzeigen, e
 
 > [AZURE.TIP] Hilfe für die Entscheidung, welcher Machine Learning-Algorithmus für das Lösen des jeweiligen Problems am besten geeignet ist, finden Sie unter [Auswählen von Algorithmen für Microsoft Azure Machine Learning](machine-learning-algorithm-choice.md).
 
-##Trainieren der Modelle
+## Trainieren der Modelle
+
 Zuerst wird das Boosted Decision Tree-Modell eingerichtet:
 
 1.	Suchen Sie das Modul [Two-Class Boosted Decision Trees][two-class-boosted-decision-tree] in der Modulpalette, und ziehen Sie es auf die Canvas.
@@ -82,7 +83,8 @@ Dieser Teil des Experiments sieht jetzt in etwa wie folgt aus:
 
 ![Trainieren des zweiten Modells][2]
 
-##Bewerten und Auswerten der Modelle
+## Bewerten und Auswerten der Modelle
+
 Wir verwenden die Testdaten, die durch das Modul [Split Data][split] getrennt wurden, um die trainierten Modelle zu bewerten. Danach können die Ergebnisse der beiden Modelle verglichen werden, um festzustellen, welches bessere Ergebnisse erbrachte.
 
 1.	Suchen Sie das Modul [Modell bewerten][score-model], und ziehen Sie es in den Bereich.
@@ -143,4 +145,4 @@ Wenn Sie diese Werte prüfen, können Sie entscheiden, welches Modell am ehesten
 [two-class-support-vector-machine]: https://msdn.microsoft.com/library/azure/12d8479b-74b4-4e67-b8de-d32867380e20/
 [split]: https://msdn.microsoft.com/library/azure/70530644-c97a-4ab6-85f7-88bf30a8be5f/
 
-<!---HONumber=AcomDC_0914_2016-->
+<!---HONumber=AcomDC_0921_2016-->

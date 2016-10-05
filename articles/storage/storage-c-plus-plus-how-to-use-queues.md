@@ -3,8 +3,8 @@
     description="Erfahren Sie, wie Sie den Warteschlangenspeicher-Dienst in Azure verwenden. Die Beispiele sind in C++ geschrieben."
     services="storage"
     documentationCenter=".net"
-    authors="robinsh"
-    manager="carmonm"
+    authors="dineshmurthy"
+    manager=jahogg""
     editor="tysonn"/>
 
 <tags
@@ -13,12 +13,14 @@
     ms.tgt_pltfrm="na"
     ms.devlang="na"
     ms.topic="article"
-    ms.date="08/03/2016"
-    ms.author="dineshm"/>
+    ms.date="09/20/2016"
+    ms.author="dineshm;robinsh"/>
 
 # Verwenden des Warteschlangenspeichers mit C++  
 
-[AZURE.INCLUDE [storage-selector-queue-include](../../includes/storage-selector-queue-include.md)] <br/> [AZURE.INCLUDE [storage-try-azure-tools-queues](../../includes/storage-try-azure-tools-queues.md)]
+[AZURE.INCLUDE [storage-selector-queue-include](../../includes/storage-selector-queue-include.md)]
+<br/>
+[AZURE.INCLUDE [storage-try-azure-tools-queues](../../includes/storage-try-azure-tools-queues.md)]
 
 ## Übersicht
 In diesem Leitfaden wird die Durchführung häufiger Szenarien mit dem Azure-Warteschlangen-Speicherdienst demonstriert. Die Beispiele sind in C++ geschrieben und greifen auf die [Azure-Speicherclientbibliothek für C++](http://github.com/Azure/azure-storage-cpp/blob/master/README.md) zurück. Zu den Szenarien gehören das **Einfügen**, **Einsehen**, **Abrufen** und **Löschen** von Warteschlangennachrichten sowie das **Erstellen und Löschen von Warteschlangen**.
@@ -228,6 +230,7 @@ Zum Löschen einer Warteschlange und aller darin enthaltenen Nachrichten rufen S
 	queue.delete_queue_if_exists();  
 
 ## Nächste Schritte
+
 Nachdem Sie sich nun mit den Grundlagen von Warteschlangenspeichern vertraut gemacht haben, lesen Sie die folgenden Artikel, um mehr über Azure-Speicher zu erfahren.
 
 -	[Verwenden des Blob-Speichers mit C++](storage-c-plus-plus-how-to-use-blobs.md)
@@ -236,4 +239,4 @@ Nachdem Sie sich nun mit den Grundlagen von Warteschlangenspeichern vertraut gem
 -	[Referenz zur Speicherclientbibliothek für C++](http://azure.github.io/azure-storage-cpp)
 -	[Azure-Speicherdokumentation](https://azure.microsoft.com/documentation/services/storage/)
 
-<!---HONumber=AcomDC_0810_2016-->
+<!---HONumber=AcomDC_0921_2016-->

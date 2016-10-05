@@ -3,8 +3,8 @@
 	description="Speichern Sie nicht strukturierte Daten in der Cloud mit Azure Blob Storage (Objektspeicher)."
 	services="storage"
 	documentationCenter="python"
-	authors="emgerner-msft"
-	manager="wpickett"
+	authors="tamram"
+	manager="carmonm"
 	editor="tysonn"/>
 
 <tags
@@ -13,12 +13,14 @@
 	ms.tgt_pltfrm="na"
 	ms.devlang="python"
 	ms.topic="article"
-    ms.date="07/26/2016"
-	ms.author="jehine"/>
+    ms.date="09/20/2016"
+	ms.author="jwillis;tamram"/>
 
 # Verwenden des Azure-Blob-Speichers mit Python
 
-[AZURE.INCLUDE [storage-selector-blob-include](../../includes/storage-selector-blob-include.md)] <br/> [AZURE.INCLUDE [storage-try-azure-tools-blobs](../../includes/storage-try-azure-tools-blobs.md)]
+[AZURE.INCLUDE [storage-selector-blob-include](../../includes/storage-selector-blob-include.md)]
+<br/>
+[AZURE.INCLUDE [storage-try-azure-tools-blobs](../../includes/storage-try-azure-tools-blobs.md)]
 
 ## Übersicht
 
@@ -89,7 +91,7 @@ Das folgende Beispiel verwendet **get\_blob\_to\_path**, um den Inhalt des Blobs
 
 	block_blob_service.get_blob_to_path('mycontainer', 'myblockblob', 'out-sunset.png')
 
-## Löschen eines Blobs
+## Löschen eines BLOBs
 
 Um ein Blob zu löschen, rufen Sie **delete\_blob** auf.
 
@@ -127,4 +129,4 @@ Nachdem Sie sich nun mit den Grundlagen von Blobspeichern vertraut gemacht haben
 [Azure Storage-Teamblog]: http://blogs.msdn.com/b/windowsazurestorage/
 [Microsoft Azure Storage-SDK für Python]: https://github.com/Azure/azure-storage-python
 
-<!---HONumber=AcomDC_0727_2016-->
+<!---HONumber=AcomDC_0921_2016-->

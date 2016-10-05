@@ -44,7 +44,7 @@ Die folgende Abbildung veranschaulicht dieses Szenario:
 
 Die öffentliche Vorschauversion der [Azure IoT-Geräteverwaltung][lnk-device-management] und die Betaversion des [Azure IoT-Gateway-SDK] ermöglichen dieses Szenario. Das Gateway behandelt jeden Datenstrom wie folgt:
 
--   **Telemetriedaten**: Sie können mit dem Gateway-SDK eine Pipeline erstellen, die Telemetriedaten erkennt, filtert und in die Cloud sendet. Das Gateway-SDK liefert Code, der Teile dieser Pipeline für den Entwickler implementiert. Weitere Informationen zur Architektur des SDK finden Sie im Tutorial [IoT Gateway SDK (beta) - Get started using Linux][lnk-gateway-get-started] (IoT-Gateway-SDK [Beta] – erste Schritte mit Linux).
+-   **Telemetriedaten**: Sie können mit dem Gateway-SDK eine Pipeline erstellen, die Telemetriedaten erkennt, filtert und in die Cloud sendet. Das Gateway-SDK liefert Code, der Teile dieser Pipeline für den Entwickler implementiert. Weitere Informationen zur Architektur des SDK finden Sie im Tutorial [IoT Gateway SDK (beta) - Get started using Linux][lnk-gateway-get-started] \(IoT-Gateway-SDK [Beta] – erste Schritte mit Linux).
 
 -   **Geräteverwaltung**: Die Azure-Geräteverwaltung stellt einen LWM2M-Client bereit, der auf dem Gerät ausgeführt wird, sowie eine Cloudschnittstelle zur Ausgabe von Verwaltungsbefehlen an das Gerät.
     
@@ -58,7 +58,7 @@ Die folgende Abbildung zeigt die allgemeine Architektur zum Aktivieren dieses Sz
 
 Weitere Informationen zur Verwendung des Gateway-SDK finden Sie in folgenden Tutorials:
 
-- [IoT Gateway SDK (beta) - Get started using Linux][lnk-gateway-get-started] (IoT-Gateway-SDK [Beta] – erste Schritte mit Linux).
+- [IoT Gateway SDK (beta) - Get started using Linux][lnk-gateway-get-started] \(IoT-Gateway-SDK [Beta] – erste Schritte mit Linux).
 - [IoT Gateway SDK – Senden von D2C-Nachrichten mit einem simulierten Gerät unter Linux][lnk-gateway-simulated].
 
 Informationen zur Geräteverwaltung mit IoT Hub finden Sie unter [Einführung in die Azure IoT Hub-Geräteverwaltungsbibliothek][lnk-library-c].
